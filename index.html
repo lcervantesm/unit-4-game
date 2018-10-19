@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Uncial+Antiqua" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <title>Crystal collector</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Crystal collector</h1>
+        <div id="instructions">
+            <p>Click on crystals to collect them. Each crystal has a different value. To win, accumulate exactly the right number of points, without going over.</p>
+        </div>
+        <div id="randomnumber">
+            <p>Your goal is:</p>
+            <h2 id="number"></h2>
+        </div>
+        <div id="scoreboard">
+            <h3><span class="sans">Your wins: </span><span id="wins">0</span></h3>
+            <h3><span class="sans">Your losses: </span><span id="losses">0</span></h3>
+        </div>
+        <div id="msg">
+            <h2 id="message"></h2>
+            <button id="play">Play again</button>
+        </div>
+
+        <div id="crystals">
+
+            <img class="crystal" id="crystal1" src="assets/images/crystal1.png">
+            <img class="crystal" id="crystal2" src="assets/images/crystal2.png">
+            <img class="crystal" id="crystal3" src="assets/images/crystal3.png">
+            <img class="crystal" id="crystal4" src="assets/images/crystal4.png">
+        </div>
+        <div id="yourpoints">
+            <p>Your points are:</p>
+            <h2 id="points">0</h2>
+        </div>
+    </main>
+</body>
+
+</html>
